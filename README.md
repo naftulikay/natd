@@ -1,6 +1,9 @@
-# nathealthd [![Build Status][travis.svg]][travis]
+# natd [![Build Status][travis.svg]][travis]
 
-A NAT health check HTTP service for determining the health of an instance acting as a NAT gateway.
+A NAT management service daemon.
+
+`natd` will tweak kernel configuration using `sysctl` for IP forwarding, inject a NAT `iptables` rule, and will
+provide health checks over HTTP, port 8080 by default.
 
 ## License
 
