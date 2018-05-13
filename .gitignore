@@ -1,6 +1,8 @@
 /.ansible/galaxy-roles
 /.vagrant
 
+/natd
+
 /target
 
 /vendor/*
